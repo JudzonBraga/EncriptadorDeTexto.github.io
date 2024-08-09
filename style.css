@@ -1,4 +1,4 @@
-
+/*CONTENIDO BASICO*/
 *{
     padding: 0;
     margin:0;
@@ -6,8 +6,10 @@
 
 body{
     box-sizing:border-box;
-    background-color: cadetblue;
+    background-color: #D8DFE8;
 }
+
+/*cuerpo*/
 
 .principal{
     display: flex;
@@ -18,89 +20,130 @@ body{
     display: flex;
     flex-direction: column;
     width: 65%;
-    height: 95%;
+    height: 540px;
     margin: 0 2.5%;
-    background: red;
+    gap: 2%;
 }
 
-.ingreso_texto{
-    width: 80%;
-    height: 420px;
-    background: rgb(32, 255, 11);
-    border-radius: 15%;
-
+.ingresar_texto{
+    padding: 20px;
 }
-.botones_1{
+.caja_1{
+    width: 95%;
+    height: 80%;
+    border-radius: 5%;
+    margin: auto;
+    margin-bottom: 0;
+    background-color: #ffffff;
+}
+.ingresar_texto{
+    color:#052051;
+    font-size: larger;
+}
+.escribir{
+    width: 90%;
+    height: 85%;
     display: flex;
-    font-weight: 600;
-    background-color: aquamarine;
-    align-items: center;    
+    background: none;
+    border: none;
+    outline: none; /*desactivar el borde al seccionar*/
+    padding: 5%;
+    text-align: justify;
+    border-radius: 6%;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    resize: none;
 }
-
+.botones{
+    font-weight: 600;
+    margin: 0 10%;
+}
+.contenedor_botones{
+    display: flex;
+    justify-content: space-between;
+}
+.boton_1, .boton_2{
+    display: flex;
+    padding: 3% 15%;
+    border: 3px solid;
+    border-radius: 8%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: small;
+}
+.boton_1{
+    background-color: #052051;
+    border-color: #052051;
+    color: #ffffff;
+}
+.boton_2{
+    background-color: #ffffff;
+    border-color: #052051;
+    color: #052051;
+}
 .letras_info_int{
-    color: rgb(85, 84, 84);
+    color: #495057;
     font-size: x-small;
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 5%;
 }
-.boton_1{
-    display: flex;
-    background-color: #0A3871;
-    height: 75%;
-    align-items: center; /*centrar contenido del boton*/
-    padding: 2% 5%;
-    border: 2px solid;
-    border-color: #0A3871;
-    border-radius: 10%;
-    margin: 3% 5% 3% 20%;
-    color: white;
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.boton_2{
-    display: flex;
-    background-color: white;
-    height: 75%;
-    align-items: center; /*centrar contenido del boton*/
-    padding: 2% 5%;
-    border: 2px solid;
-    border-color: #0A3871;
-    border-radius: 10%;
-    margin: 3% 20% 3% 5%;
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-
-
-
-
-
-
-
-
-
 
 .seccion_2{
+    display: flex;
+    flex-direction: column;
     width: 25%;
+    height: 540px;
     margin: 0 2.5%;
-    background-color: white;
+    background-color: #ffffff;
+    border-radius: 8%;
     
 }
-.salida_texto{
-    width: 100%;
-    height: 100%;
-    background-color: rgb(0, 255, 21);
-    border-radius: 25%;
+
+.caja_2{
+    width: 95%;
+    height: 80%;
+    margin: auto;
+    padding: 5% 0;
 }
 
-
-
-
-
-
-
-
+.mostrar{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    background: none;
+    border: none;
+    padding: 5%;
+    outline: none; /*desactivar el borde al seccionar*/
+    padding: 15% 5%;
+    text-align: justify;
+    border-radius: 6%;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    resize: none;
+    background-color: #ffffff;
+}
+.botones2{
+    display: flex;
+    height: 20%;
+    width: 100%;
+}
+.contenedor_botones2{
+    display: flex;
+    margin: auto;
+}
+.boton_3{
+    /*visibility: hidden;*/
+    display: flex;
+    background-color: #ffffff;
+    border-color: #052051;
+    text-decoration: none;
+    padding: 20% 80%;
+    border: 3px solid;
+    border-radius: 8%;
+    align-items: center;
+    color: #052051;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 
 

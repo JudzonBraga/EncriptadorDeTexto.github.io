@@ -3,44 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ENCRIPTADOR</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="style2.css">
 </head>
 <body>
     <main class="principal">
-        <section class="seccion_1">
-            <div class="caja_1">
-                <textarea class="escribir" placeholder="INGRESA EL TEXTO QUE DESEAS ENCRIPTAR" maxlength="500"></textarea>
+        <div class="cuerpo_1">
+            <div class="contenedor_1">
+                <textarea class="ingreso" placeholder="INGRESA EL TEXTO QUE DESEAS ENCRIPTAR" maxlength="450"></textarea>
             </div>
-            <div class="letras_info">
-                <p class="letras_info_int">
-                    Solo letras minúsculas y sin acentos
-                </p>
+            <div class="contenedor_2">
+                <button onclick="encriptar();" class="boton_1">ENCRIPTAR</button>
+                <button onclick="desencriptar();" class="boton_2">DESENCRIPTAR</button>
             </div>
-            <div class="botones">
-                <div class="contenedor_botones">
-                    <a href="" class="boton_1">
-                        ENCRIPTAR
-                    </a>
-                    <a href="" class="boton_2">
-                        DESENCRIPTAR
-                    </a>
+        </div>
+        <div class="cuerpo_2">
+            <div class="contenedor_3">
+                <div class="contenedor_4">
+                    <textarea class="salida" id="contenidoSalida" placeholder="TEXTO DESENCRIPTADO"></textarea>
+                </div>
+                <div class="contenedor_5">
+                    <button onclick="copiar();" id="botonCopiar" class="boton_3" hidden >COPIAR</button>
                 </div>
             </div>
-        </section>
-        <section class="seccion_2">
-            <div class="caja_2">
-                <textarea class="mostrar" placeholder="ACA SE MOSTRARA EL RESULTADO"></textarea>
-            </div>
-            <div class="botones2">
-                <div class="contenedor_botones2">
-                    <a href="" class="boton_3">
-                        COPIAR
-                    </a>
-                </div>
-            </div> 
-        </section>
+        </div>
     </main>
+
     <footer class="pie_de_pagina">
         <p>---------- CONTENIDO CREADO Y EDITADO POR IUXON - CURSO ALURA LATAM ----------</p>
     </footer>

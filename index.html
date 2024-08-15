@@ -3,24 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ENCRIPTADOR</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="style2.css">
 </head>
 <body>
     <main class="principal">
         <div class="cuerpo_1">
             <div class="contenedor_1">
-                <textarea class="ingreso" placeholder="INGRESA EL TEXTO QUE DESEAS ENCRIPTAR" maxlength="450"></textarea>
+                <textarea class="ingreso" id="contenidoEntrada" placeholder="INGRESA EL TEXTO QUE DESEAS ENCRIPTAR" maxlength="450"></textarea>
             </div>
             <div class="contenedor_2">
-                <button onclick="encriptar();" class="boton_1">ENCRIPTAR</button>
-                <button onclick="desencriptar();" class="boton_2">DESENCRIPTAR</button>
+                <button onclick="encriptar();" id="botonEncriptar" class="boton_1">ENCRIPTAR</button>
+                <button onclick="desencriptar();" id="botonDesencriptar" class="boton_2">DESENCRIPTAR</button>
             </div>
         </div>
         <div class="cuerpo_2">
             <div class="contenedor_3">
                 <div class="contenedor_4">
-                    <textarea class="salida" id="contenidoSalida" placeholder="TEXTO DESENCRIPTADO"></textarea>
+                    <textarea class="salida" id="contenidoSalida" placeholder="TEXTO DESENCRIPTADO" disabled></textarea>
                 </div>
                 <div class="contenedor_5">
                     <button onclick="copiar();" id="botonCopiar" class="boton_3" hidden >COPIAR</button>

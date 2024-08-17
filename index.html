@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ENCRIPTADOR</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
 </head>
 <body>
     <main class="principal">
@@ -13,18 +13,18 @@
                 <textarea class="ingreso" id="contenidoEntrada" placeholder="INGRESA EL TEXTO QUE DESEAS ENCRIPTAR" maxlength="450"></textarea>
             </div>
             <div class="contenidoMedio">
-                <image src="IMG/icono.jpg" alt="imagen de informacion" width="15"> Solo letras mayusculas y sin acentos</div>
+                <image src="../../IMG/icono.jpg" alt="imagen de informacion" width="15"> Solo letras mayusculas y sin acentos</div>
             <div class="contenedor_2">
                 <button onclick="encriptar();" id="botonEncriptar" class="boton_1">ENCRIPTAR</button>
                 <button onclick="desencriptar();" id="botonDesencriptar" class="boton_2">DESENCRIPTAR</button>
-                <img src="IMG/escoba.jpg" id="botonBarrer" onclick="barrer();" class="boton_barrer" title="Limpiar">
+                <img src="../../IMG/escoba.jpg" id="botonBarrer" onclick="barrer();" class="boton_barrer" title="Limpiar">
             </div>
         </div>
         <div class="cuerpo_2">
             <div class="contenedor_3" id="contenedor_3">
-                    <img src="IMG/imagen.png" alt="imagen de nino con una lupa" id="imagen_cont3">
-                    <h5 id="h5_cont3">NINGUN MENSAJE FUE ENCONTRADO</h5>
-                    <p id="p_cont3">Ingresa el texto que deseas encriptar o desencriptar</p>
+                    <img src="../../IMG/imagen.png" alt="" id="imagen_cont3">
+                    <p class="p1" id="h5_cont3">NINGUN MENSAJE FUE ENCONTRADO</p>
+                    <p class="p2" id="p_cont3">Ingresa el texto que deseas encriptar o desencriptar</p>
                     <div class="contenedor_4">
                         <textarea class="salida" id="contenidoSalida"></textarea>
                     </div>
@@ -36,8 +36,7 @@
     </main>
 
     <footer class="pie_de_pagina">
-        <p>---------- CONTENIDO CREADO Y EDITADO POR IUXON - CURSO ALURA LATAM ----------</p>
+        <p>------- CONTENIDO CREADO Y EDITADO POR IUXON - CURSO ALURA LATAM -------</p>
     </footer>
     <script src="script.js"></script>
 </body>
-</html>
